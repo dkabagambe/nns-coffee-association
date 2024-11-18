@@ -1,6 +1,10 @@
-function toggleMenu() {
-  const navLinks = document.querySelector(".nav-links");
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const navbarNav = document.querySelector(".navbar-nav");
   const body = document.body;
-  navLinks.classList.toggle("active");
-  body.classList.toggle("menu-active"); // Optional overlay effect
-}
+
+  hamburgerMenu.addEventListener("click", () => {
+    navbarNav.classList.toggle("active");
+    body.classList.toggle("menu-active");
+  });
+});
