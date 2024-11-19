@@ -882,6 +882,21 @@ p {
   width: 100%;
   max-width: 100%;
   display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  font-family: garamond;
+  margin-bottom: 3rem;
+}
+.hero-wrapper-4:nth-child(odd) {
+  flex-direction: row-reverse;
+  padding-left: 180px;
+  padding-right: 180px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
   position: relative;
   height: 100%;
   font-family: garamond;
@@ -1073,6 +1088,15 @@ h1 {
   }
   /* -------------------- */
   .hero-wrapper-4 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 15px;
+  }
+  .hero-wrapper-4:nth-child(odd) {
     width: 100%;
     height: 100%;
     flex-direction: column;
