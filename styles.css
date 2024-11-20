@@ -25,7 +25,7 @@ header {
 
 /* Top Section: Social Icons */
 .top-bar {
-  background-color: #ffffff;
+  background-color: #f8f6f3;
   padding: 10px;
   text-align: center;
   padding-left: 140px;
@@ -38,24 +38,22 @@ header {
   gap: 1rem;
   margin: 0;
   padding: 0;
-  color: rgba(0, 176, 80, 255);
 }
 
 .social-icons li a {
   text-decoration: none;
-  color: rgba(14, 151, 204, 0.9);
+  color: #354729;
   font-size: 1.2rem;
 }
 .social-icons li a:hover {
-  color: rgba(58, 82, 92, 0.9);
+  color: #608750;
 }
 .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(0, 176, 80, 255);
-  background-image: linear-gradient(#00000080, #00000080);
+  background-color: rgba(57, 36, 33, 255);
   height: auto;
   padding-left: 140px;
   padding-right: 150px;
@@ -67,7 +65,7 @@ header {
 
 .logo {
   width: 100px;
-  height: auto;
+  height: 100px;
   border-radius: 50%;
   padding: 5px;
   position: relative;
@@ -101,7 +99,7 @@ header {
 }
 .navbar-nav li a {
   text-decoration: none;
-  color: #000000;
+  color: #f8f6f3;
   font-weight: bold;
   transition: color 0.3s;
   margin-left: 10px;
@@ -110,7 +108,7 @@ header {
 }
 
 .navbar-nav li a:hover {
-  color: rgba(58, 82, 92, 0.9);
+  color: #f0dac5;
 }
 
 .hamburger-menu {
@@ -137,14 +135,16 @@ header {
 
   .logo-container img {
     padding: 20px;
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    border-radius: 0;
   }
 
   .hamburger-menu {
     font-size: 1.8rem;
     display: block;
     cursor: pointer;
-    color: rgba(14, 151, 204, 0.9);
+    color: #f8f6f3;
     position: absolute; /* Add this */
     z-index: 20;
     left: 0;
@@ -172,8 +172,7 @@ header {
     left: 0;
     padding-bottom: 20px;
     padding-right: 20px;
-    background-color: rgba(0, 176, 80, 255);
-    background-image: linear-gradient(#00000080, #00000080);
+    background-color: rgba(57, 36, 33, 255);
   }
 
   .navbar-nav.active {
@@ -182,7 +181,7 @@ header {
   }
 
   .navbar-nav li {
-    border-bottom: 1px solid rgba(14, 151, 204, 0.9);
+    border-bottom: 1px solid#354729;
     width: 100%;
     max-width: 100%;
     height: 20%;
@@ -213,7 +212,7 @@ header {
     font-size: 1.9rem;
     display: block;
     cursor: pointer;
-    color: rgba(14, 151, 204, 0.9);
+    color: #f8f6f3;
     position: absolute; /* Add this */
     z-index: 20;
     right: 10;
@@ -243,7 +242,7 @@ header {
   }
 
   .navbar-nav li {
-    border-bottom: 1px solid rgba(14, 151, 204, 0.9);
+    border-bottom: 1px solid#354729;
     width: 100%;
     height: 20%;
     margin-left: 20px;
@@ -297,7 +296,7 @@ header {
   font-size: 37px;
   font-weight: 600;
   line-height: 40px;
-  color: rgba(14, 151, 204, 0.9);
+  color: #f8f6f3;
   font-family: garamond;
 }
 
@@ -573,6 +572,7 @@ p {
 
 @media screen and (min-width: 1280px) {
   .shadow-two-3 {
+    background-color: none;
     flex: none;
   }
 }
@@ -598,19 +598,11 @@ p {
   font-size: 14px;
 }
 
-a {
-  background-color: #0000;
-}
-
-a {
-  text-decoration: underline;
-}
-
 .w-button {
   color: #fff;
   line-height: inherit;
   cursor: pointer;
-  background-color: #3898ec;
+  background-color: rgba(57, 36, 33, 255);
   border: 0;
   border-radius: 0;
   padding: 9px 15px;
@@ -624,7 +616,7 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase;
   mix-blend-mode: normal;
-  background-color: #0000;
+  background-color: rgba(57, 36, 33, 255);
   border: 2px solid #000;
   width: 100%;
   padding: 12px 25px;
@@ -680,6 +672,7 @@ strong {
   .shadow-two-3 {
     width: 210%;
     max-width: 210%;
+    background: none;
   }
   .margin-bottom-24px-5 {
     text-align: left;
@@ -693,10 +686,9 @@ strong {
     left: auto;
   }
   .button-primary-5 {
-    color: #fff;
+    color: #f8f6f3;
     line-height: inherit;
     cursor: pointer;
-    background-color: #3898ec;
     border: 0;
     border-radius: 0;
     padding: 9px 15px;
@@ -779,7 +771,7 @@ p {
 }
 /* ----this is the next section on the about us page -------------- */
 .text-block-about {
-  color: #000;
+  color: #000000;
   text-align: left;
   width: 100%;
   padding-bottom: 0;
@@ -1213,7 +1205,7 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   font-weight: 600;
-  color: rgba(14, 151, 204, 0.9);
+  color: #f8f6f3;
   display: grid;
   place-items: center;
   font-size: 18px;
@@ -1299,7 +1291,7 @@ p {
 }
 
 .margin-bottom-24px-4 {
-  color: rgba(14, 151, 204, 0.9);
+  color: #f8f6f3;
   letter-spacing: 4px;
   width: 130%;
   margin-top: 48px;
@@ -1327,8 +1319,7 @@ footer {
   position: relative;
   padding: 1rem;
   text-align: center;
-  background-color: rgba(0, 176, 80, 255);
-  background-image: linear-gradient(#00000080, #00000080);
+  background-color: #392421;
 }
 
 .social-footer ul {
@@ -1345,6 +1336,9 @@ footer {
 
 .social-footer a {
   text-decoration: none;
-  color: rgba(14, 151, 204, 0.9);
+  color: #7e8c4f;
   font-size: 1.2rem;
+}
+footer p {
+  color: #f8f6f3;
 }
