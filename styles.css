@@ -12,13 +12,13 @@ body {
   overflow-x: hidden;
   position: relative;
   font-family: garamond;
-  background-color: #eee;
+  background-color: #f8f6f7;
   font-size: 1rem;
   font-weight: 400;
 }
 /* Header */
 header {
-  color: white;
+  color: #f8f6f3;
   display: flex;
   flex-direction: column;
 }
