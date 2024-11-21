@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /* Reset and basic styles */
 * {
   margin: 0;
@@ -11,10 +12,10 @@ body {
   width: 100%;
   overflow-x: hidden;
   position: relative;
-  font-family: garamond;
-  background-color: #f8f6f7;
-  font-size: 1rem;
+  font-family: "Cormorant Garamond", serif !important;
   font-weight: 400;
+  font-style: normal;
+  background-color: #f8f6f7;
 }
 /* Header */
 header {
@@ -42,7 +43,7 @@ header {
 
 .social-icons li a {
   text-decoration: none;
-  color: #354729;
+  color: #392424;
   font-size: 1.2rem;
 }
 .social-icons li a:hover {
@@ -53,7 +54,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(57, 36, 33, 255);
+  background-color: #392424;
   height: auto;
   padding-left: 140px;
   padding-right: 150px;
@@ -100,7 +101,7 @@ header {
 .navbar-nav li a {
   text-decoration: none;
   color: #f8f6f3;
-  font-weight: bold;
+  font-weight: 600;
   transition: color 0.3s;
   margin-left: 10px;
   font-size: 18px !important;
@@ -108,7 +109,7 @@ header {
 }
 
 .navbar-nav li a:hover {
-  color: #f0dac5;
+  color: #0e0909;
 }
 
 .hamburger-menu {
@@ -297,7 +298,6 @@ header {
   font-weight: 600;
   line-height: 40px;
   color: #f8f6f3;
-  font-family: garamond;
 }
 
 .description p {
@@ -306,7 +306,6 @@ header {
   font-size: 1.5rem;
   font-weight: 600;
   color: #000000 !important;
-  font-family: garamond;
 }
 
 @media (max-width: 767px) {
@@ -340,7 +339,6 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family: garamond;
 }
 
 .text-block5 {
@@ -555,6 +553,9 @@ img {
 p {
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hero-split-3 {
@@ -702,7 +703,9 @@ strong {
 
 section {
   display: block;
-  font-family: garamond;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .hero-stack-about {
@@ -734,7 +737,6 @@ section {
   align-items: center;
   width: 100%;
   max-width: 80%;
-  font-family: garamond;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -743,6 +745,9 @@ section {
 p {
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .margin-bottom-24px-4 {
@@ -782,7 +787,6 @@ p {
   line-height: 35px;
   position: relative;
   left: auto;
-  font-family: garamond;
 }
 
 @media screen and (min-width: 1280px) {
@@ -804,7 +808,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: garamond;
 }
 .col-story {
   float: left;
@@ -834,7 +837,6 @@ p {
   padding-right: 180px;
   line-height: 24px;
   position: relative;
-  font-family: garamond;
 }
 
 .link-19 {
@@ -877,7 +879,6 @@ p {
   flex-direction: row;
   position: relative;
   height: 100%;
-  font-family: garamond;
   margin-bottom: 3rem;
 }
 .hero-wrapper-4:nth-child(odd) {
@@ -891,7 +892,6 @@ p {
   display: flex;
   position: relative;
   height: 100%;
-  font-family: garamond;
 }
 
 @media screen and (min-width: 1280px) {
@@ -955,6 +955,9 @@ img {
 p {
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .margin-bottom-24px-6 {
@@ -1119,6 +1122,9 @@ h1 {
   p {
     margin-top: 0;
     margin-bottom: 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
   }
 
   .margin-bottom-24px-6 {
@@ -1180,6 +1186,9 @@ h1 {
   padding: 10px 0;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 #team h3 {
   text-align: center;
@@ -1189,7 +1198,6 @@ h1 {
   display: grid;
   place-items: center;
   padding: 20px 10px;
-  font-family: garamond;
 }
 #team p {
   text-align: center;
@@ -1205,10 +1213,10 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   font-weight: 600;
-  color: #f8f6f3;
+  color: #0400f7;
   display: grid;
   place-items: center;
-  font-size: 18px;
+  font-size: 24px;
   padding: 10px;
 }
 .team-member {
@@ -1239,7 +1247,6 @@ h1 {
 }
 .team-member h4 {
   margin: 0;
-  font-family: garamond;
   color: #373636;
   font-weight: 520;
 }
@@ -1247,7 +1254,6 @@ h1 {
 
 section {
   display: block;
-  font-family: garamond;
 }
 
 .hero-stack-contact {
@@ -1279,7 +1285,6 @@ section {
   align-items: center;
   width: 100%;
   max-width: 80%;
-  font-family: garamond;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1341,4 +1346,7 @@ footer {
 }
 footer p {
   color: #f8f6f3;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: italic;
 }
