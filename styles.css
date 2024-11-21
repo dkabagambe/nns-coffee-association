@@ -1317,7 +1317,154 @@ p {
   .margin-bottom-24px-4 {
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
   }
+}
+/* -------------------------- */
+
+.w-col {
+  text-align: center;
+  width: 80%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.w-col-4 {
+  width: 33.3333%;
+}
+
+.w-col-3 {
+  width: 25%;
+}
+
+.column-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.w-col-5 {
+  width: 35.3333%;
+}
+
+.image-21 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+  .image-21 {
+    width: 80%;
+    left: 9px;
+  }
+}
+
+.heading-3 {
+  letter-spacing: 3px;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 40px;
+  position: relative;
+  left: 18px;
+}
+
+.image-16 {
+  width: 100%;
+  max-width: 110%;
+  position: relative;
+  top: 10px;
+  left: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .image-16 {
+    width: 80%;
+    left: -87px;
+  }
+}
+.contact {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+}
+
+.contact h5 {
+  text-align: left;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 30px;
+  position: relative;
+}
+.contact p {
+  text-align: left;
+  width: 100%;
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* Optional: add some spacing between columns */
+.contact .col-md-4 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .w-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .w-col-4 {
+    width: 100%;
+  }
+
+  .w-col-3 {
+    width: 100%;
+  }
+
+  .column-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .w-col-5 {
+    width: 100%;
+  }
+  .contact .col-md-4 {
+    width: 100%;
+    height: 100%;
+  }
+  .contact {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 90%;
+    height: 100%;
+  }
+}
+.map {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px; /* Adjust the left and right padding as needed */
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
 }
 /* Footer */
 footer {
