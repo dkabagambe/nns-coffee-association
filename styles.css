@@ -1466,6 +1466,78 @@ p {
   height: 450px;
   border: 0;
 }
+
+/* --------contact us css starts from here--------------- */
+
+section {
+  display: block;
+}
+
+.hero-stack-concept {
+  background-image: url("img/pexels-quang-nguyen-vinh-222549-14776857.jpg");
+  background-position: 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 230px;
+  padding-bottom: 230px;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-stack-concept {
+    width: 100%;
+  }
+}
+
+.container-6 {
+  width: 100%;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-6 .div-block-8 {
+  opacity: 0.7;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 25%;
+  padding: 20px;
+  position: relative;
+  top: -86px;
+  left: 127px;
+}
+
+.div-block-8 h1 {
+  margin: 0.67em 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 44px;
+}
+.div-block-8 p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  position: relative;
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .hero-stack-concept {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container-6 {
+    width: 100%;
+    max-width: max-content;
+    left: 0;
+  }
+  .container-6 .div-block-8 {
+    top: auto;
+    width: 100%;
+    left: auto;
+  }
+}
 /* Footer */
 footer {
   position: relative;
