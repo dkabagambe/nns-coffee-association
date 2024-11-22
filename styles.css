@@ -1192,20 +1192,21 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   font-weight: 600;
-  color: #222222 !important;
+  color: #222222;
   display: grid;
   place-items: center;
-  padding: 20px 10px;
+  padding: 20px;
 }
 #team p {
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
-  color: #000;
+  color: #777;
   display: grid;
   place-items: center;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 1.3rem;
+  padding: 15px;
+  font-style: italic;
 }
 #team h5 {
   text-align: center;
@@ -1215,7 +1216,6 @@ h1 {
   display: grid;
   place-items: center;
   font-size: 24px;
-  padding: 10px;
 }
 .team-member {
   text-align: center;
@@ -1244,8 +1244,8 @@ h1 {
   height: 100%;
 }
 .team-member h4 {
-  margin: 0;
-  color: #373636;
+  margin: 15px;
+  color: #000000;
   font-weight: 520;
 }
 /* --------contact us css starts from here--------------- */
