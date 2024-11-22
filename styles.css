@@ -19,14 +19,14 @@ body {
 }
 /* Header */
 header {
-  color: #f8f6f3;
+  color: #f0dac5;
   display: flex;
   flex-direction: column;
 }
 
 /* Top Section: Social Icons */
 .top-bar {
-  background-color: #f8f6f3;
+  background-color: #f0dac5;
   padding: 10px;
   text-align: center;
   padding-left: 140px;
@@ -100,7 +100,7 @@ header {
 }
 .navbar-nav li a {
   text-decoration: none;
-  color: #f8f6f3;
+  color: #f0dac5;
   font-weight: 600;
   transition: color 0.3s;
   margin-left: 10px;
@@ -109,7 +109,7 @@ header {
 }
 
 .navbar-nav li a:hover {
-  color: #0e0909;
+  color: #7b3f00;
 }
 
 .hamburger-menu {
@@ -145,7 +145,7 @@ header {
     font-size: 1.8rem;
     display: block;
     cursor: pointer;
-    color: #f8f6f3;
+    color: #f0dac5;
     position: absolute; /* Add this */
     z-index: 20;
     left: 0;
@@ -211,7 +211,7 @@ header {
     font-size: 1.9rem;
     display: block;
     cursor: pointer;
-    color: #f8f6f3;
+    color: #f0dac5;
     position: absolute; /* Add this */
     z-index: 20;
     right: 10;
@@ -295,7 +295,7 @@ header {
   font-size: 37px;
   font-weight: 600;
   line-height: 40px;
-  color: #f8f6f3;
+  color: #f0dac5;
 }
 
 .description p {
@@ -685,7 +685,7 @@ strong {
     left: auto;
   }
   .button-primary-5 {
-    color: #f8f6f3;
+    color: #f0dac5;
     line-height: inherit;
     cursor: pointer;
     border: 0;
@@ -1294,7 +1294,7 @@ p {
 }
 
 .margin-bottom-24px-4 {
-  color: #f8f6f3;
+  color: #f0dac5;
   letter-spacing: 4px;
   width: 130%;
   margin-top: 48px;
@@ -1640,7 +1640,7 @@ p {
 }
 
 .margin-bottom-24px-4 {
-  color: #f8f6f3;
+  color: #f0dac5;
   letter-spacing: 4px;
   width: 130%;
   margin-top: 48px;
@@ -1895,7 +1895,7 @@ footer {
   font-size: 1.2rem;
 }
 footer p {
-  color: #f8f6f3;
+  color: #f0dac5;
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: italic;
