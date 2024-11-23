@@ -287,23 +287,37 @@ header {
   z-index: 1;
 }
 
-.description h1 {
+.description .hero-wrapper-two-3 {
   letter-spacing: 4px;
   width: 100%;
   margin-top: 48px;
-  margin-bottom: 68px;
+  margin-bottom: 18px;
   font-size: 37px;
   font-weight: 600;
   line-height: 40px;
-  color: #f0dac5;
 }
 
-.description p {
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  font-size: 1.5rem;
+.hero-wrapper-3 > img {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.description h1 {
+  width: 100%;
+  margin-top: 0px;
+  font-size: 30px;
   font-weight: 600;
-  color: #000000 !important;
+  line-height: 40px;
+  color: #bd9879;
+  color: #fff;
+}
+.description p {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #bd9879;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -313,20 +327,31 @@ header {
     width: 100%;
   }
 
-  .description h1 {
+  .description .hero-wrapper-two-3 {
+    letter-spacing: 4px;
     width: 100%;
-    margin: 10px;
-    font-size: 37px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: normal;
-    padding-bottom: 2rem;
+    line-height: 10px;
   }
 
+  .hero-wrapper-3 > img {
+    border-radius: 50%;
+  }
+  .description h1 {
+    width: 100%;
+    /* margin-top: 0px; */
+    font-size: 20px;
+    font-weight: 700;
+    color: #bd9879;
+  }
   .description p {
-    font-size: 1.1rem;
-    line-height: normal;
+    font-size: 19px;
+    text-transform: uppercase;
     font-weight: 600;
-    color: snow;
+    color: #bd9879;
   }
 }
 
@@ -1255,7 +1280,7 @@ section {
 }
 
 .hero-stack-contact {
-  background-image: url("img/1.png");
+  background-image: url("img/coffee.jpg");
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -1293,26 +1318,27 @@ p {
   margin-bottom: 10px;
 }
 
-.margin-bottom-24px-4 {
+.hero-stack-contact .margin-bottom-24px-4 {
   color: #f0dac5;
   letter-spacing: 4px;
-  width: 130%;
-  margin-top: 48px;
-  margin-bottom: 68px;
-  font-size: 37px;
+  width: 100%;
+  margin-top: 48px !important;
+  margin-bottom: 68px !important;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
+  transform: translateY(0);
 }
 
 @media screen and (min-width: 1280px) {
-  .margin-bottom-24px-4 {
-    width: 120%;
-    max-width: 200%;
-    font-weight: 700;
+  .hero-stack-contact.margin-bottom-24px-4 {
+    width: 100%;
+    max-width: 100%;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 767px) {
-  .margin-bottom-24px-4 {
+  .hero-stack-contact .margin-bottom-24px-4 {
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -1472,7 +1498,7 @@ section {
 }
 
 .hero-stack-concept {
-  background-image: url("img/pexels-andre-taissin-3252911-6239866.jpg");
+  background-image: url("img/1.png");
   background-position: 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1601,7 +1627,7 @@ section {
 }
 
 .hero-stack-order {
-  background-image: url("img/1.png");
+  background-image: url("img/Untitled design.png");
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -1640,21 +1666,21 @@ p {
 }
 
 .margin-bottom-24px-4 {
+  background-color: #392424;
   color: #f0dac5;
   letter-spacing: 4px;
-  width: 130%;
-  margin-top: 48px;
-  margin-bottom: 68px;
-  font-size: 37px;
-  font-weight: 700;
-  line-height: 40px;
+  width: 75%;
+  margin-top: 68px;
+  margin-bottom: 38px;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  transform: translateY(190px);
 }
 
 @media screen and (min-width: 1280px) {
   .margin-bottom-24px-4 {
-    width: 120%;
-    max-width: 200%;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 767px) {
