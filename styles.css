@@ -1249,11 +1249,12 @@ h1 {
 #team h5 {
   text-align: center;
   text-transform: capitalize;
-  font-weight: 600;
-  color: #777;
+  font-weight: 500;
+  color: #050505;
   display: grid;
   place-items: center;
-  font-size: 24px;
+  font-size: 20px;
+  font-family: monospace;
 }
 .team-member {
   text-align: center;
