@@ -2210,6 +2210,7 @@ footer p {
   justify-content: flex-end;
   font-weight: bold;
   white-space: pre;
+  color: #f0dac5;
 }
 #qlwapp.qlwapp-button .qlwapp-toggle {
   height: 40px;
