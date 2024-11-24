@@ -370,7 +370,6 @@ header {
   width: 80%;
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 30px;
   position: relative;
   left: auto;
   font-size: clamp(18px, 2.5vw, 28px);
@@ -626,6 +625,7 @@ p {
   height: 2.76093%;
   position: relative;
   left: -17px;
+  height: 100%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -725,7 +725,7 @@ strong {
   }
   .image-15 {
     width: 100%;
-    left: auto;
+    text-align: center;
   }
   .button-primary-5 {
     color: #f0dac5;
@@ -848,7 +848,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(18px, 2.5vw, 28px);
+  font-size: clamp(24px, 3vw, 32px);
   line-height: 1.5;
 }
 .col-story {
@@ -1064,37 +1064,36 @@ h1 {
 }
 
 .heading-4 {
-  letter-spacing: 3px;
-  width: 90%;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: clamp(18px, 2.5vw, 28px);
-  line-height: 1.5;
+  font-size: clamp(24px, 1vw, 32px);
   position: relative;
   left: auto;
   font-weight: 700;
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
   .heading-4 {
-    font-size: clamp(18px, 2.5vw, 28px);
-    line-height: 1.5;
+    line-height: 1.2;
+    text-align: center;
   }
 }
 
 .image-17 {
   position: relative;
-  left: -36px;
+  left: -30px;
 }
 
 @media screen and (min-width: 1280px) {
   .image-17 {
-    left: -62px;
+    left: -32px;
   }
 }
 @media (max-width: 768px) {
   .text-block-about {
-    font-size: clamp(18px, 2.5vw, 28px);
+    font-size: clamp(20px, 2.5vw, 28px);
     line-height: 1.5;
     font-weight: 500;
     padding: 15px;
@@ -1102,7 +1101,7 @@ h1 {
   }
   .storys {
     padding: 15px;
-    font-size: clamp(18px, 2.5vw, 28px);
+    font-size: clamp(24px, 3vw, 32px);
     line-height: 1.5;
     flex-direction: column;
   }
@@ -1214,12 +1213,9 @@ h1 {
 
   .heading-4 {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 10px;
-    line-height: 44px;
     left: auto;
-    font-size: 33px;
-    font-weight: 500;
   }
   .image-17 {
     left: auto;
