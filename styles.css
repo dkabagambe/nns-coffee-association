@@ -1356,9 +1356,6 @@ p {
   width: 100%;
   margin-top: 48px !important;
   margin-bottom: 68px !important;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 40px;
   transform: translateY(0);
 }
 
@@ -1451,6 +1448,7 @@ p {
   padding-left: 10px;
   padding-right: 10px;
   height: 100%;
+  font-family: "EB Garamond", serif !important;
 }
 
 .contact h5 {
@@ -1458,22 +1456,25 @@ p {
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: clamp(20px, 2.5vw, 28px);
+  line-height: 1.5;
   position: relative;
+  font-family: "EB Garamond", serif !important;
 }
 .contact p {
+  font-family: "EB Garamond", serif !important;
   text-align: left;
   width: 100%;
   position: relative;
   font-weight: 400;
   font-style: normal;
-  font-family: "Cormorant Garamond", serif !important;
-  font-size: clamp(15px, 1.6vw, 18px);
+  font-size: clamp(18px, 1.5vw, 20px);
   line-height: 1.7;
 }
 /* Optional: add some spacing between columns */
 .contact .col-md-4 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 20px;
 }
 
@@ -1511,6 +1512,11 @@ p {
     height: 100%;
   }
   .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     margin-bottom: 30px;
     margin-top: 30px;
     width: 90%;
@@ -1520,7 +1526,7 @@ p {
 .map {
   display: flex;
   justify-content: center;
-  padding: 0 20px; /* Adjust the left and right padding as needed */
+  padding: 10px; /* Adjust the left and right padding as needed */
 }
 
 .map iframe {
