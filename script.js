@@ -9,3 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
     navbarNav.classList.toggle("active");
   });
 });
+// Dynamically set the current year
+document.getElementById("currentYear").textContent = new Date().getFullYear();
